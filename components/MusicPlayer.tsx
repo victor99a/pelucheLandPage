@@ -12,13 +12,13 @@ export const MusicPlayer: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Track 1: Welcome to the Black Parade */}
+        {/* Track 1: Welcome to the Black Parade - Autoplay Enabled */}
         <div className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-mcr-blood to-mcr-black rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative bg-mcr-black rounded-xl ring-1 ring-white/10 shadow-2xl">
             <iframe 
               style={{ borderRadius: '12px' }} 
-              src="https://open.spotify.com/embed/track/5wQnmLuC1W7ATsArWACrgW?utm_source=generator&theme=0" 
+              src="https://open.spotify.com/embed/track/5wQnmLuC1W7ATsArWACrgW?utm_source=generator&theme=0&autoplay=1" 
               width="100%" 
               height="152" 
               frameBorder="0" 
